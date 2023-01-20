@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(194, 194, 255);
+}
+
+.calculator {
+  width: 320px;
+  border: 2px solid #47476b;
+  padding: 5px;
+  background-color: black;
+}
+
+.formulaScreen {
+  display: block;
+  min-height: 20px;
+  color: orange;
+  font-family: digital;
+  font-size: 20px;
+  text-align: right;
+  vertical-align: text-top;
+  line-height: 20px;
+}
+
+.outPutScreen {
+  display: block;
+  color: white;
+  font-size: 29px;
+  min-height: 35px;
+  font-family: digital;
+  text-align: right;
+  line-height: 35px;
+}
+
+.buttonsArea {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 325px;
+}
+
+button {
+  position: relative;
+  height: 65px;
+  width: 80px;
+  color: white;
+  outline: 1px solid black;
+  border: none;
+  background-color: #4d4d4d;
+  font-family: Share Tech Mono, monospace;
+  font-size: 20px;
+  cursor: default;
+  box-sizing: border-box;
+  appearance: auto;
+  display: inline-block;
+  align-items: flex-start;
+  margin: 0em;
+  padding: 1px 6px;
+  text-align: center;
+}
+
+.diffBG {
+  background-color: rgb(102, 102, 102);
+}
+
+#clear {
+  background-color: rgb(172, 57, 57);
+}
+
+.jumbo {
+  width: 160px;
+}
+
+#equals {
+  background: rgb(0, 68, 102);
+  height: 130px;
+  position: relative;
+  bottom: 65px;
+}
